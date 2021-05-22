@@ -1,0 +1,62 @@
+name: EYESY
+author: “jqrsound.com”
+entry: main.pd
+image: eyesy.jpeg
+description: |
+    Adaptation of the Critter&Guitari EYESY video synth.
+tags:
+    - EYESY
+    - VideoSynth
+    - Critter&Guitari
+midi_controls:
+    - control: control_change
+      value: 21
+      description: Knob 1
+    - control: control_change
+      value: 22
+      description: Knob 2
+    - control: control_change
+      value: 23
+      description: Knob 3
+    - control: control_change
+      value: 24
+      description: Knob 4
+    - control: control_change
+      value: 25
+      description: Knob 5
+    - control: control_change
+      value: 26
+      description: Prev Scene
+    - control: control_change
+      value: 27
+      description: Next Scene
+    - control: control_change
+      value: 28
+      description: Save/Delete
+    - control: control_change
+      value: 29
+      description: Auto Clear
+    - control: control_change
+      value: 30
+      description: Prev Mode
+    - control: control_change
+      value: 31
+      description: Next Mode
+    - control: control_change
+      value: 32
+      description: Screenshot
+    - control: control_change
+      value: 33
+      description: Shift Key
+    - control: control_change
+      value: 34
+      description: Input Gain
+    - control: control_change
+      value: 35
+      description: Trigger Source
+    - control: control_change
+      value: 36
+      description: Info
+    - control: control_change
+      value: 37
+      description: Trigger

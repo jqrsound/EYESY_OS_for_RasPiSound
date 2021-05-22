@@ -1,0 +1,15 @@
+{
+    "name" : "EYESY",
+    "display" : "EYESY",
+    "parameters" : [
+        ["float","knob_1","Knob 1",0,127,65],
+        ["float","knob_2","Knob 2",0,127,65],
+        ["float","knob_3","Knob 3",0,127,65],
+        ["float","knob_4","Knob 4",0,127,65],
+        ["float","knob_5","Knob 5",0,127,65]
+
+    ],
+    "pages" : [
+        ["pg_main","Main",["knob_1","knob_2","knob_3","knob_4","knob_5"]]
+    ]
+}
