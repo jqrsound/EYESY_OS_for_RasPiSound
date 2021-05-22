@@ -1,7 +1,7 @@
 ## EYESY on Raspberry Pi with Blokas PiSound
 
-The operating system for the EYESY video synthesizer device - remixed.
-Adaptation of the Critter&Guitari EYESY video synth in order to run it on a Raspberry Pi with Blokas PiSound.
+The operating system for the EYESY video synthesizer device - remixed.<br>
+Adaptation of the Critter&Guitari EYESY video synth in order to run it on a Raspberry Pi with Blokas PiSound.<br>
 Eyesy Manual : https://www.critterandguitari.com/manual?m=EYESY_Manual#eyesy%E2%84%A2-user-manual
 
 
@@ -11,7 +11,7 @@ Run ./install.sh
 
 ### Usage:
 - Connect a display to the HDMI out.
-- Boot up your RasPi
+- Boot up your RasPi.
 - Push the Button once to start EYESY, twice to stop it.
 
    
@@ -33,7 +33,8 @@ Run ./install.sh
 
 
 ### Web Editor
-The web editor lets you edit the pygame scripts that generate the visuals on the fly. It should be accessible at http://patchbox.local:8080/
+The web editor lets you edit the pygame scripts that generate the visuals on the fly.<br>
+It should be accessible at http://patchbox.local:8080/<br>
 See the Eyesy manual for more details on using the web editor.
 
 
@@ -42,4 +43,5 @@ From the shellscript folder run ./uninstall.sh
 
 
 ### Rem:
-You can use the stereo input in your Modes, in Python there are accessible via `etc.audio_left` and `etc.audio_right` in the scripts, `etc.audio_in` remains L + R.
+You can use the stereo input in your Modes, in Python there are accessible via `etc.audio_left` and `etc.audio_right`.<br>
+In the scripts, `etc.audio_in` remains L + R.
