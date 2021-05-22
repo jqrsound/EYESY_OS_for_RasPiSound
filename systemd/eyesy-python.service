@@ -1,0 +1,11 @@
+[Unit] 
+Description=Python Pygame Video Engine
+
+[Service] 
+Type=simple
+WorkingDirectory=/home/patch/Eyesy/engines/python
+ExecStart=nohup python -u main.py -aout jack
+Environment=JACK_PROMISCUOUS_SERVER=jack
+
+[Install] 
+WantedBy=multi-user.target

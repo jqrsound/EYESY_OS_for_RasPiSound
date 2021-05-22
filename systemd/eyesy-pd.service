@@ -1,0 +1,12 @@
+[Unit] 
+Description=Pd OSC hardware bridge for Eyesy
+
+[Service] 
+Type=simple 
+User=patch
+Group=patch
+WorkingDirectory=/home/patch/Eyesy
+ExecStart=/usr/bin/pd -alsamidi -mididev 1 -nogui -noaudio -path /home/patch/Eyesy/pd/externals pd/main.pd
+
+[Install] 
+WantedBy=multi-user.target

@@ -1,0 +1,12 @@
+[Unit]
+Description=Web socket server for Eyesy web server.
+
+[Service]
+Type=simple
+User=patch
+Group=patch
+WorkingDirectory=/home/patch/Eyesy/web/node
+ExecStart=node websockettailer.js
+
+[Install]
+WantedBy=multi-user.target

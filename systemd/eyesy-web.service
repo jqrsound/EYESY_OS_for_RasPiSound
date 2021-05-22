@@ -1,0 +1,13 @@
+[Unit]
+Description=Web server for Eyesy.
+Requires=eyesy-web-socket.service
+
+[Service]
+Type=simple
+User=patch
+Group=patch
+WorkingDirectory=/home/patch/Eyesy/web
+ExecStart=cherryd -i cpapp -c prod.conf
+
+[Install]
+WantedBy=multi-user.target
