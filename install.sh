@@ -1,7 +1,7 @@
 #!/bin/sh
 
-git clone https://github.com/jqrsound/EYESY_OS_for_RasPiSound.git Eyesy
-cd Eyesy
+git clone https://github.com/jqrsound/EYESY_OS_for_RasPiSound.git /home/patch/Eyesy
+cd /home/patch/Eyesy
 
 set -ex
 
@@ -16,7 +16,7 @@ curl -sL https://deb.nodesource.com/setup_14.x | sed -e 's/apt-get /apt-get --al
 sudo apt install -y python-pygame python-liblo python-alsaaudio python-pip libffi-dev nodejs
 
 # Python packages
-sudo pip install -y psutil cherrypy numpy JACK-Client
+sudo pip install psutil cherrypy numpy JACK-Client
 
 # Node packages
 cd web/node && npm install && cd ../..
