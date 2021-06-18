@@ -1,0 +1,6 @@
+name: Eyesy
+description: Eyesy module
+listing_script: eyesy_list.sh
+launcher_script: eyesy_launch.sh
+stopper_script: eyesy_stop.sh
+detail_script: eyesy_detail.sh
