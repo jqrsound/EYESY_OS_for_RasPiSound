@@ -70,3 +70,8 @@ From the `shellscript` folder, run:
 ```bash
 ./uninstall.sh
 ```
+
+## Step-by-step Guide
+
+Back in 2021 I wrote the original tutorial [EYESY on RasPi4 w/ Pisound (step-by-step guide)](https://community.blokas.io/t/eyesy-on-raspi4-w-pisound-step-by-step-guide/2936).
+I also copied it here in the repo in case something will break during the installation.
