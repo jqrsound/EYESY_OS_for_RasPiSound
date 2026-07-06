@@ -1,4 +1,4 @@
-# EYESY on Raspberry Pi with Blokas PiSound
+# EYESY on Raspberry Pi with Patchbox OS and Blokas PiSound
 
 ![OS](https://img.shields.io/badge/OS-Patchbox%20OS-blue)
 ![Platform](https://img.shields.io/badge/Platform-Raspberry%20Pi-red)
